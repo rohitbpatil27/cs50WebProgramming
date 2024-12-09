@@ -1,0 +1,25 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.input-field {
+    margin: 10px;
+}
+
+.form-container-as {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px
+}

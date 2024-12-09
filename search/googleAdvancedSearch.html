@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .input-field-as {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: right;">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="form-container-as">
+            <form action="https://google.com/search">
+                <div class="input-field-as">
+                    
+                    <label for="all words">all these words:</label>
+                    <input type="text" id="all words" name="as_q"><br><br>
+
+                    <label for="exact words">this exact word or phrase:</label>
+                    <input type="text" id="exact words" name="as_epq"><br><br>
+                    
+                    <label for="any words">any of these words:</label>
+                    <input type="text" id="any words" name="as_oq"><br><br>
+                    
+                    <label for="none words">none of these words:</label>
+                    <input type="text" id="none words" name="as_eq"><br><br>
+                </div>
+                <div>
+                    <input style="background-color: blue; color: white;" type="Submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
